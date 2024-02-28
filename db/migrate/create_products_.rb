@@ -1,4 +1,4 @@
-class  < ActiveRecord::Migration[7.1]
+class CreateProducts < ActiveRecord::Migration[7.1]
   def change
 
       create_table :products do |t|
@@ -10,7 +10,7 @@ class  < ActiveRecord::Migration[7.1]
         t.boolean :is_veg
         t.boolean :is_best_offer
         t.string  :path_to_image
-        
+
         t.timestamps
       end
   end
