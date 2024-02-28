@@ -9,5 +9,5 @@ function something()
 
 	alert(x);
 }
-
+ 
 
