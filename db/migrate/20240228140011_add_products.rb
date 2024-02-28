@@ -9,7 +9,7 @@ class AddProducts < ActiveRecord::Migration[7.1]
       :is_veg => false,
       :is_best_offer => false,
       :path_to_image => '/images/Hawai.jpg'
-)}
+})
 Product.create ({
   :title => 'Peperoni', 
   :desription =>'This is Peperoni pizza',
@@ -19,16 +19,16 @@ Product.create ({
   :is_veg => false,
   :is_best_offer => true,
   :path_to_image => '/images/Peperoni.png'
-)}
+})
   Product.create ({
     :title => 'Veg', 
-    :desription =>'This is Vegetarian pizza,
+    :desription =>'This is Vegetarian pizza',
     :price => 400,
     :size => 30,
     :is_spicy => false,
     :is_veg => true,
     :is_best_offer => false,
     :path_to_image => '/images/Veg.jpg'
-    )}
+    })
   end
 end
