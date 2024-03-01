@@ -43,7 +43,7 @@ function update_orders_input()
 {
 
 	var orders = cart_get_orders;
-	$('update_orders_input').val(orders);
+	$('#update_orders_input').val(orders);
 
 }
 
